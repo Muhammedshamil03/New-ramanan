@@ -21,10 +21,10 @@ BOT_TOKEN = environ['BOT_TOKEN']
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/38cf3ff3ae1dd3abfed77.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/7d7cbf0d6c39dc5a05f5a.jpg")
+PICS = (environ.get('PICS', 'https://graph.org/file/9942d2169825c3b6b09e3.jpg')).split()
+NOR_IMG = environ.get("NOR_IMG", "CAACAgUAAxkBAAKos2O78sOP3iwVmCeDoru1MOq8jFu0AAJKBQACne-ZVo2980VFcXh4HgQ")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/451f038b4e7c2ddd10dc0.mp4")
-SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/9942d2169825c3b6b09e3.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "CAACAgQAAxkBAAKotmO79c-ag7IoH0fV_T9VSUX6NK4gAALuDQACfabBUL3yfHaJzfwaHgQ")
 
 # Admins, Channels & Users
 ADMINS = [1788725479, 557604719]
